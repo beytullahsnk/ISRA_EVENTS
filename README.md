@@ -195,8 +195,8 @@ Intégrer un système de billetterie (Eventbrite, Stripe, etc.)
 ## 👨‍💻 Support
 
 Pour toute question ou modification :
-- Email : contact@israevents.fr
-- Téléphone : +33 1 23 45 67 89
+- Email : media@turkiyeexpo.fr
+- Téléphone : +33 1 43 62 16 16
 
 ---
 
