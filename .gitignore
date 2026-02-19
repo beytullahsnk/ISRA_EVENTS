@@ -1,6 +1,5 @@
 # Vidéos (trop volumineuses pour GitHub, 100 Mo max)
-assets/videos/
-*.mp4
+
 
 # Optionnel
 node_modules/
