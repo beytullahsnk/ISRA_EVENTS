@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - ISRA Events</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <a href="index.html" class="logo-text"><img src="assets/images/ISRA.png" alt="logo isra events" id="logo-isra-header"></a>
+            </div>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Accueil</a></li>
+                <li><a href="evenements.html" class="nav-link">Nos Événements</a></li>
+                <li><a href="devenir-exposant.html" class="nav-link">Devenir Exposant</a></li>
+                <li><a href="a-propos.html" class="nav-link">À propos</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+                <li><a href="https://www.turkiyeexpo.fr/" target="_blank" class="btn-primary nav-btn">Accéder à la billetterie</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title">Contactez ISRA Events</h1>
+            <p class="page-subtitle">Une question sur un événement, un projet de salon ou congrès à organiser ?
+                                    Remplissez le formulaire ci-dessous, notre équipe vous répond rapidement.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-page">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <h2 class="contact-info-title">Nos coordonnées</h2>
+                    
+                    <div class="contact-item">
+                        <div class="contact-item-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                        </div>
+                        <div class="contact-item-content">
+                            <h3 class="contact-item-title">Téléphone</h3>
+                            <p class="contact-item-text">+33 1 43 62 16 16</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-item-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                        </div>
+                        <div class="contact-item-content">
+                            <h3 class="contact-item-title">Email</h3>
+                            <p class="contact-item-text">media@turkiyeexpo.fr</p>
+                            <p class="contact-item-subtext">Réponse sous 24h ouvrées</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-item-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                        </div>
+                        <div class="contact-item-content">
+                            <h3 class="contact-item-title">Adresse</h3>
+                            <p class="contact-item-text">58 rue Lenine<br>93170 Bagnolet, France</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm" action="https://formspree.io/f/xjgvdkok" method="POST">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="prenom">Prénom *</label>
+                                <input type="text" id="prenom" name="prenom" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="nom">Nom *</label>
+                                <input type="text" id="nom" name="nom" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="organisation">Organisation / Société (optionnel)</label>
+                            <input type="text" id="organisation" name="organisation">
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="telephone">Téléphone</label>
+                                <input type="tel" id="telephone" name="telephone">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="sujet">Sujet *</label>
+                            <input type="text" id="sujet" name="sujet" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                        </div>
+
+                        <div class="form-group checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="rgpd" required>
+                                <span>J'accepte que mes données personnelles soient utilisées pour traiter ma demande. Conformément au RGPD.</span>
+                            </label>
+                        </div>
+
+                        <button type="submit" class="btn-primary btn-large">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="22" y1="2" x2="11" y2="13"/>
+                                <polygon points="22 2 15 22 11 13 2 9 22 2"/>
+                            </svg>
+                            Envoyer ma demande
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <img src="assets/images/ISRA.png" alt="logo isra events" id="logo-isra-footer">
+                    <p class="footer-description">Organisation de foires, salons professionnels, congrès et événements culturels en France et en Europe.</p>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-heading">Isra Events</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="evenements.html">Expositions</a></li>
+                        <li><a href="devenir-exposant.html">Devenir Exposant</a></li>
+                        <li><a href="a-propos.html">À propos</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-heading">Coordonnées</h4>
+                    <ul class="footer-contact">
+                        <li>📞 +33 1 43 62 16 16</li>
+                        <li>✉️ media@turkiyeexpo.fr</li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-heading">Informations</h4>
+                    <ul class="footer-links">
+                        <li><a href="mentions-legales.html">Mentions Légales</a></li>
+                        <li><a href="mentions-legales.html#confidentialite">Confidentialité</a></li>
+                    </ul>
+                    <a href="https://www.turkiyeexpo.fr/" class="btn-primary" style="margin-top: 16px;">Accéder à la billetterie</a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 ISRA Events. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+</html>

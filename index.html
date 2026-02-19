@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISRA Events - Événements professionnels en France et Europe</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <img src="assets/images/ISRA.png" alt="logo isra events" id="logo-isra-header">
+            </div>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link active">Accueil</a></li>
+                <li><a href="evenements.html" class="nav-link">Nos Événements</a></li>
+                <li><a href="devenir-exposant.html" class="nav-link">Devenir Exposant</a></li>
+                <li><a href="a-propos.html" class="nav-link">À propos</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+                <li><a href="https://www.turkiyeexpo.fr/" target="_blank" class="btn-primary nav-btn">Accéder à la billetterie</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section avec Vidéo -->
+    <section class="hero-video">
+        <div class="video-container">
+            <video autoplay muted loop playsinline class="hero-video-bg">
+                <source src="assets/videos/AnnonceTurkiyeExpo-TR_1.mp4" type="video/mp4">
+            </video>
+            <div class="video-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="container">
+                <h1 class="hero-title">Nous créons des événements qui rassemblent</h1>
+                <p class="hero-subtitle"><strong>Foires, salons professionnels, congrès et événements culturels en France et en Europe</strong></p>
+                <div class="hero-actions">
+                    <a href="evenements.html" class="btn-primary btn-large">Découvrir nos événements</a>
+                    <a href="#evenements-phares" class="btn-secondary btn-large">Événements phares</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Événements Phares -->
+    <section class="featured-events" id="evenements-phares">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Événements phares</h2>
+                <p class="section-subtitle">Découvrez nos événements majeurs qui marquent l'année</p>
+            </div>
+
+            <div class="events-grid">
+                <!-- Event 1 -->
+                <article class="event-card featured">
+                    <div class="event-image">
+                        <img src="assets/images/IMG_tr_expo_mevlana.jpg" alt="Türkiye Expo">
+                        <span class="event-badge">Exposition</span>
+                        <span class="event-ticket"><a href="https://www.turkiyeexpo.fr/" target="_blank" rel="noopener noreferrer">Billetterie en ligne</a></span>
+                    </div>
+                    <div class="event-content">
+                        <h3 class="event-title">Türkiye Expo</h3>
+                        <div class="event-ev1-description">
+                            <div class="event-meta">
+                                <span class="event-location">📍 Paris</span>
+                                <span class="event-date">📅 15-19 Mars 2024</span>
+                            </div>
+                            <div class="event-actions">
+                                <a href="#" class="btn-outline">Détails</a>
+                                <a href="https://www.turkiyeexpo.fr/" target="_blank" class="btn-primary">Réserver</a>
+                            </div>                            
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Event 2 -->
+                <article class="event-card featured">
+                    <div class="event-image">
+                        <img src="assets/images/img2_evenement.jpg" alt="Festival des Arts & Métiers">
+                        <span class="event-badge">Événement culturel</span>
+                        <span class="event-ticket">Billetterie en ligne</span>
+                    </div>
+                    <div class="event-content">
+                        <h3 class="event-title">Festival des Arts & <br>métiers</h3>
+                        <div class="event-meta">
+                            <span class="event-location">📍 Paris</span>
+                            <span class="event-date">📅 8-9 Juin 2024</span>
+                        </div>
+                        <div class="event-actions">
+                            <a href="#" class="btn-outline">Détails</a>
+                            <a href="#" class="btn-primary">Réserver</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Event 3 -->
+                <article class="event-card featured">
+                    <div class="event-image">
+                        <img src="assets/images/img3_evenement.jpg" alt="Expo Gastronomie Européenne">
+                        <span class="event-badge">Exposition</span>
+                        <span class="event-ticket">Billetterie en ligne</span>
+                    </div>
+                    <div class="event-content">
+                        <h3 class="event-title">Expo Gastronomie Européenne</h3>
+                            <div class="event-meta">
+                                <span class="event-location">📍 Strasbourg</span>
+                                <span class="event-date">📅 25-29 Septembre 2024</span>
+                            </div>
+                            <div class="event-actions">
+                                <a href="#" class="btn-outline">Détails</a>
+                                <a href="#" class="btn-primary">Réserver</a>
+                            </div>                            
+                    </div>
+                </article>
+            </div>
+
+            <div class="section-cta">
+                <a href="evenements.html" class="btn-primary btn-large">Voir tous nos événements</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Domaines d'intervention -->
+    <section class="domains">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nos domaines d'intervention</h2>
+            </div>
+
+            <div class="domains-grid">
+                <div class="domain-card">
+                    <div class="domain-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="3" width="18" height="18" rx="2"/>
+                            <path d="M3 9h18"/>
+                            <path d="M9 21V9"/>
+                        </svg>
+                    </div>
+                    <h3 class="domain-title">Foires & expositions grand public</h3>
+                    <p class="domain-description">Foires, Expos, salons culturels, fêtes à thème et bien plus...</p>
+                </div>
+
+                <div class="domain-card">
+                    <div class="domain-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                            <circle cx="9" cy="7" r="4"/>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                        </svg>
+                    </div>
+                    <h3 class="domain-title">Salons professionnels</h3>
+                    <p class="domain-description">B2B, B2C, salons métiers et exposants</p>
+                </div>
+
+                <div class="domain-card">
+                    <div class="domain-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="7" width="20" height="14" rx="2"/>
+                            <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
+                        </svg>
+                    </div>
+                    <h3 class="domain-title">Congrès & conférences</h3>
+                    <p class="domain-description">Événements de networking, colloques, formations, séminaires...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Images & Videos Gallery -->
+    <section class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">En images</h2>
+                <p class="section-subtitle">Retour en images sur nos événements passés et moments inoubliables</p>
+            </div>
+
+            <div class="gallery-grid-modern">
+                <!-- Grande image 1 -->
+                <div class="gallery-item-modern gallery-large">
+                    <img src="assets/images/IMG_tr_expo_mevlana.jpg" alt="Türkiye Expo - Stand principal">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Türkiye Expo 2024</h3>
+                            <p>Paris - Mars 2024</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vidéo 1 -->
+                <div class="gallery-item-modern gallery-video">
+                    <video loop muted playsinline class="gallery-video-element">
+                        <source src="assets/videos/TurkiyeExpo-Murat-Iman-V2.mp4" type="video/mp4">
+                    </video>
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Ambiance Türkiye Expo</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Image 2 -->
+                <div class="gallery-item-modern">
+                    <img src="assets/images/img2_evenement.jpg" alt="Festival des Arts & Métiers">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Festival des Arts</h3>
+                            <p>Artisanat traditionnel</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Image 3 -->
+                <div class="gallery-item-modern">
+                    <img src="assets/images/img3_evenement.jpg" alt="Expo Gastronomie">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Expo Gastronomie</h3>
+                            <p>Saveurs européennes</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Grande vidéo 2 -->
+                <div class="gallery-item-modern gallery-large gallery-video">
+                    <video autoplay muted loop playsinline class="gallery-video-element">
+                        <source src="assets/videos/AfterMovie-Mevlut-Erding.mp4" type="video/mp4">
+                    </video>
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Mevlüt Erdinç</h3>
+                            <p>Nos meilleurs moments</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Image 4 -->
+                <div class="gallery-item-modern">
+                    <img src="assets/images/img5_evenement.png" alt="Congrès">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Congrès de la Culture</h3>
+                            <p>Metz 2024</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Image 5 -->
+                <div class="gallery-item-modern">
+                    <img src="assets/images/img6_evenement.png" alt="Salon Innovation">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h3>Salon Innovation</h3>
+                            <p>Technologies & Digital</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Image 6 -->
+                <div class="gallery-item-modern">
+                    <img src="assets/images/img_tr_expo1.jpg" alt="Salon professionnel">
+                    <div class="gallery-overlay">
+                        <h3>Türkiye Expo</h3>
+                    </div>
+                </div>
+
+                <!-- Image 7 -->
+                <div class="gallery-item-modern">
+                    <img src="assets/images/img_nourriture_tr_expo.jpg" alt="Événement culturel">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <p>Gastronomie</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-cta">
+                <a href="evenements.html" class="btn-outline btn-large">Voir tous nos événements</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <img src="assets/images/ISRA.png" alt="logo isra events" id="logo-isra-footer">
+                    <p class="footer-description">Organisation de foires, salons professionnels, congrès et événements culturels en France et en Europe.</p>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-heading">Isra Events</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="evenements.html">Expositions</a></li>
+                        <li><a href="devenir-exposant.html">Devenir Exposant</a></li>
+                        <li><a href="a-propos.html">À propos</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-heading">Coordonnées</h4>
+                    <ul class="footer-contact">
+                        <li>📞 +33 1 43 62 16 16</li>
+                        <li>✉️ media@turkiyeexpo.fr</li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-heading">Informations</h4>
+                    <ul class="footer-links">
+                        <li><a href="mentions-legales.html">Mentions Légales</a></li>
+                        <li><a href="mentions-legales.html#confidentialite">Confidentialité</a></li>
+                    </ul>
+                    <a href="https://www.turkiyeexpo.fr/" class="btn-primary" style="margin-top: 16px;">Accéder à la billetterie</a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 ISRA Events. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

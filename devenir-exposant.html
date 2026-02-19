@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devenir Exposant - ISRA Events</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <a href="index.html" class="logo-text"><img src="assets/images/ISRA.png" alt="logo isra events" id="logo-isra-header"></a>
+            </div>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Accueil</a></li>
+                <li><a href="evenements.html" class="nav-link">Nos Événements</a></li>
+                <li><a href="devenir-exposant.html" class="nav-link active">Devenir Exposant</a></li>
+                <li><a href="a-propos.html" class="nav-link">À propos</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+                <li><a href="https://www.turkiyeexpo.fr/" target="_blank" class="btn-primary nav-btn">Accéder à la billetterie</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header exhibitor-header">
+        <div class="container">
+            <h1 class="page-title">Devenez exposant à nos événements</h1>
+            <p class="page-subtitle">Rejoignez nos foires, salons et expositions pour développer votre visibilité et rencontrer vos clients</p>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="contact-section" id="contact-form">
+        <div class="container">
+            <div class="section-header center">
+                <h2 class="section-title">Devenir exposant</h2>
+                <p class="section-subtitle">Remplissez le formulaire ci-dessous, notre équipe vous répondra rapidement</p>
+            </div>
+
+            <div class="form-wrapper">
+                <form class="contact-form" id="exhibitorForm" action="https://formspree.io/f/xjgvdkok" method="POST">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="prenom">Prénom *</label>
+                            <input type="text" id="prenom" name="prenom" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="nom">Nom *</label>
+                            <input type="text" id="nom" name="nom" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="organisation">Entreprise / Organisation *</label>
+                        <input type="text" id="organisation" name="organisation" required>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="telephone">Téléphone</label>
+                            <input type="tel" id="telephone" name="telephone">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="evenement">Événement concerné *</label>
+                        <select id="evenement" name="evenement" required>
+                            <option value="">Sélectionnez un événement</option>
+                            <option value="turkiye-expo">Türkiye Expo - Mars 2024</option>
+                            <option value="festival-arts">Festival des Arts & Métiers - Juin 2024</option>
+                            <option value="expo-gastro">Expo Gastronomie Européenne - Septembre 2024</option>
+                            <option value="salon-innovation">Salon de l'Innovation - Octobre 2024</option>
+                            <option value="autre">Autre événement</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" rows="6" required placeholder="Décrivez votre projet, vos besoins spécifiques..."></textarea>
+                    </div>
+
+                    <div class="form-group checkbox-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="rgpd" required>
+                            <span>J'accepte que mes données personnelles soient utilisées pour traiter ma demande. Conformément au RGPD, vous pouvez exercer vos droits d'accès, de rectification et de suppression de vos données.</span>
+                        </label>
+                    </div>
+
+                    <button type="submit" class="btn-primary btn-large">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="22" y1="2" x2="11" y2="13"/>
+                            <polygon points="22 2 15 22 11 13 2 9 22 2"/>
+                        </svg>
+                        Envoyer ma demande
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Exhibit -->
+    <section class="why-exhibit">
+        <div class="container">
+            <div class="section-header center">
+                <h2 class="section-title">Pourquoi exposer avec ISRA Events ?</h2>
+                <p class="section-subtitle">Des événements professionnels qui génèrent du business</p>
+            </div>
+
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                            <circle cx="9" cy="7" r="4"/>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                        </svg>
+                    </div>
+                    <h3 class="benefit-title">Audience qualifiée</h3>
+                    <p class="benefit-description">Rencontrez des milliers de visiteurs professionnels et grand public ciblés selon votre secteur d'activité.</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <polyline points="12 6 12 12 16 14"/>
+                        </svg>
+                    </div>
+                    <h3 class="benefit-title">Visibilité optimale</h3>
+                    <p class="benefit-description">Bénéficiez d'une communication large avant, pendant et après l'événement pour maximiser votre impact.</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                            <path d="M2 17l10 5 10-5"/>
+                            <path d="M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h3 class="benefit-title">Networking</h3>
+                    <p class="benefit-description">Créez des opportunités de partenariats et développez votre réseau professionnel.</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
+                        </svg>
+                    </div>
+                    <h3 class="benefit-title">ROI mesurable</h3>
+                    <p class="benefit-description">Des statistiques détaillées et un suivi personnalisé pour mesurer votre retour sur investissement.</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                            <polyline points="3.27 6.96 12 12.01 20.73 6.96"/>
+                            <line x1="12" y1="22.08" x2="12" y2="12"/>
+                        </svg>
+                    </div>
+                    <h3 class="benefit-title">Stands clés en main</h3>
+                    <p class="benefit-description">Solutions d'aménagement complètes avec assistance technique et logistique sur place.</p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                            <polyline points="22 4 12 14.01 9 11.01"/>
+                        </svg>
+                    </div>
+                    <h3 class="benefit-title">Expertise événementielle</h3>
+                    <p class="benefit-description">Une équipe dédiée vous accompagne de A à Z dans l'organisation de votre présence.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <img src="assets/images/ISRA.png" alt="logo isra events" id="logo-isra-footer">
+                    <p class="footer-description">Organisation de foires, salons professionnels, congrès et événements culturels en France et en Europe.</p>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-heading">Isra Events</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="evenements.html">Expositions</a></li>
+                        <li><a href="devenir-exposant.html">Devenir Exposant</a></li>
+                        <li><a href="a-propos.html">À propos</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-heading">Coordonnées</h4>
+                    <ul class="footer-contact">
+                        <li>📞 +33 1 43 62 16 16</li>
+                        <li>✉️ media@turkiyeexpo.fr</li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-heading">Informations</h4>
+                    <ul class="footer-links">
+                        <li><a href="mentions-legales.html">Mentions Légales</a></li>
+                        <li><a href="mentions-legales.html#confidentialite">Confidentialité</a></li>
+                    </ul>
+                    <a href="https://www.turkiyeexpo.fr/" class="btn-primary" style="margin-top: 16px;">Accéder à la billetterie</a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 ISRA Events. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/exhibitor.js"></script>
+</body>
+</html>

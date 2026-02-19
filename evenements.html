@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nos Événements - ISRA Events</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <a href="index.html" class="logo-text"><img src="assets/images/ISRA.png" alt="logo isra events" id="logo-isra-header"></a>
+            </div>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Accueil</a></li>
+                <li><a href="evenements.html" class="nav-link active">Nos Événements</a></li>
+                <li><a href="devenir-exposant.html" class="nav-link">Devenir Exposant</a></li>
+                <li><a href="a-propos.html" class="nav-link">À propos</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+                <li><a href="https://www.turkiyeexpo.fr/" target="_blank" class="btn-primary nav-btn">Accéder à la billetterie</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title">Toutes nos expositions & événements</h1>
+            <p class="page-subtitle">Retrouvez l'ensemble des expositions, salons, congrès et événements culturels organisés par ISRA Events.</p>
+        </div>
+    </section>
+
+    <!-- Filters -->
+    <section class="filters-section">
+        <div class="container">
+            <div class="filters-info">
+                <p class="filters-legend">
+                    <span class="legend-item">
+                        <span class="dot" style="background: var(--primary);"></span> Événements avec billetterie en ligne
+                    </span>
+                    <span class="legend-item">
+                        <span class="dot" style="background: var(--gray-400);"></span> Événements sans billetterie (sur invitation ou entrée libre)
+                    </span>
+                </p>
+            </div>
+
+            <div class="filters">
+                <button class="filter-btn active" data-filter="tous">Tous</button>
+                <button class="filter-btn" data-filter="expositions">Expositions</button>
+                <button class="filter-btn" data-filter="salons">Salons</button>
+                <button class="filter-btn" data-filter="congres">Congrès</button>
+                <button class="filter-btn" data-filter="culture">Culture</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events List -->
+    <section class="events-list">
+        <div class="container">
+            <p class="events-count"><span id="eventsCount">6</span> événements trouvés</p>
+
+            <div class="events-grid" id="eventsGrid">
+                <!-- Event 1 -->
+                <article class="event-card" data-category="expositions">
+                    <div class="event-image">
+                        <img src="assets/images/IMG_tr_expo_mevlana.jpg" alt="Türkiye Expo">
+                        <span class="event-badge">Exposition</span>
+                        <span class="event-ticket ticket-online"><a href="https://www.turkiyeexpo.fr/" target="_blank" rel="noopener noreferrer">Billetterie en ligne</a></span>
+                    </div>
+                    <div class="event-content">
+                        <h3 class="event-title">Türkiye Expo</h3>
+                        <div class="event-meta">
+                            <span class="event-location">📍 Paris</span>
+                            <span class="event-date">📅 15-19 Mars 2024</span>
+                        </div>
+                        <p class="event-description">L'exposition qui met à l'honneur la gastronomie, la culture et l'artisanat turcs à travers plusieurs jours d'animations, de stands et de spectacles.</p>
+                        <div class="event-actions">
+                            <a href="#" class="btn-outline">Détails</a>
+                            <a href="#" class="btn-primary">Réserver</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Event 2 -->
+                <article class="event-card" data-category="salons">
+                    <div class="event-image">
+                        <img src="assets/images/img4_evenement.png" alt="Salon des Entrepreneurs">
+                        <span class="event-badge">Salon professionnel</span>
+                        <span class="event-ticket ticket-online">Billetterie en ligne</span>
+                    </div>
+                    <div class="event-content">
+                        <h3 class="event-title">Salon des Entrepreneurs</h3>
+                        <div class="event-meta">
+                            <span class="event-location">📍 Lyon</span>
+                            <span class="event-date">📅 20-22 Avril 2024</span>
+                        </div>
+                        <p class="event-description">Rencontre professionnelle dédiée aux entrepreneurs, startups et investisseurs. Espace B2B, conférences et networking.</p>
+                        <div class="event-actions">
+                            <a href="#" class="btn-outline">Détails</a>
+                            <a href="#" class="btn-primary">Réserver</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Event 3 -->
+                <article class="event-card" data-category="congres">
+                    <div class="event-image">
+                        <img src="assets/images/img5_evenement.png" alt="Congrès de la Culture">
+                        <span class="event-badge">Congrès</span>
+                    </div>
+                    <div class="event-content">
+                        <h3 class="event-title">Congrès de la Culture</h3>
+                        <div class="event-meta">
+                            <span class="event-location">📍 Metz</span>
+                            <span class="event-date">📅 10-12 Mai 2024</span>
+                        </div>
+                        <p class="event-description">Événement académique et institutionnel rassemblant experts, chercheurs et décideurs autour des enjeux culturels contemporains.</p>
+                        <div class="event-actions">
+                            <a href="#" class="btn-outline">Détails</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Event 4 -->
+                <article class="event-card" data-category="culture">
+                    <div class="event-image">
+                        <img src="assets/images/img2_evenement.jpg" alt="Festival des Arts & Métiers">
+                        <span class="event-badge">Événement culturel</span>
+                        <span class="event-ticket ticket-online">Billetterie en ligne</span>
+                    </div>
+                    <div class="event-content">
+                        <h3 class="event-title">Festival des Arts & Métiers</h3>
+                        <div class="event-meta">
+                            <span class="event-location">📍 Paris</span>
+                            <span class="event-date">📅 8-9 Juin 2024</span>
+                        </div>
+                        <p class="event-description">Célébration de l'artisanat traditionnel et moderne avec démonstrations, ateliers et marché artisanal.</p>
+                        <div class="event-actions">
+                            <a href="#" class="btn-outline">Détails</a>
+                            <a href="#" class="btn-primary">Réserver</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Event 5 -->
+                <article class="event-card" data-category="expositions">
+                    <div class="event-image">
+                        <img src="assets/images/img3_evenement.jpg" alt="Expo Gastronomie Européenne">
+                        <span class="event-badge">Exposition</span>
+                        <span class="event-ticket ticket-online">Billetterie en ligne</span>
+                    </div>
+                    <div class="event-content">
+                        <h3 class="event-title">Expo Gastronomie Européenne</h3>
+                        <div class="event-meta">
+                            <span class="event-location">📍 Strasbourg</span>
+                            <span class="event-date">📅 25-29 Septembre 2024</span>
+                        </div>
+                        <p class="event-description">Découverte des saveurs et traditions culinaires européennes. Dégustations, masterclasses et rencontres avec des chefs.</p>
+                        <div class="event-actions">
+                            <a href="#" class="btn-outline">Détails</a>
+                            <a href="#" class="btn-primary">Réserver</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Event 6 -->
+                <article class="event-card" data-category="salons">
+                    <div class="event-image">
+                        <img src="assets/images/img6_evenement.png" alt="Salon Professionnel de l'Innovation">
+                        <span class="event-badge">Salon professionnel</span>
+                    </div>
+                    <div class="event-content">
+                        <h3 class="event-title">Salon Professionnel de l'Innovation</h3>
+                        <div class="event-meta">
+                            <span class="event-location">📍 Paris</span>
+                            <span class="event-date">📅 15-17 Octobre 2024</span>
+                        </div>
+                        <p class="event-description">Rencontres B2B autour de l'innovation technologique et digitale. Stands exposants, pitch sessions et conférences.</p>
+                        <div class="event-actions">
+                            <a href="#" class="btn-outline">Détails</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <img src="assets/images/ISRA.png" alt="logo isra events" id="logo-isra-footer">
+                    <p class="footer-description">Organisation de foires, salons professionnels, congrès et événements culturels en France et en Europe.</p>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-heading">Isra Events</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="evenements.html">Expositions</a></li>
+                        <li><a href="devenir-exposant.html">Devenir Exposant</a></li>
+                        <li><a href="a-propos.html">À propos</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-heading">Coordonnées</h4>
+                    <ul class="footer-contact">
+                        <li>📞 +33 1 43 62 16 16</li>
+                        <li>✉️ media@turkiyeexpo.fr</li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-heading">Informations</h4>
+                    <ul class="footer-links">
+                        <li><a href="mentions-legales.html">Mentions Légales</a></li>
+                        <li><a href="mentions-legales.html#confidentialite">Confidentialité</a></li>
+                    </ul>
+                    <a href="https://www.turkiyeexpo.fr/" class="btn-primary" style="margin-top: 16px;">Accéder à la billetterie</a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 ISRA Events. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/events.js"></script>
+</body>
+</html>
