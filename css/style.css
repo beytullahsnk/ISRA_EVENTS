@@ -445,6 +445,10 @@ h1, h2, h3, h4, h5, h6 {
     justify-self: center;
 }
 
+.events-list #eventsGrid > .event-card:only-child {
+    max-width: 420px;
+}
+
 .event-card:hover .event-image img {
     transform: scale(1.1);
 }
